@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+.venv/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Quant Data (Very Large)
+data/
+*.zip
+*.csv
+*.json
+!TmomAlpha/config.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Output / Reports
+PROJECT_REPORT_CSI1000.pdf
+PROJECT_REPORT_CSI1000.html
+PROJECT_REPORT_CSI1000_v3_extracted_text.txt
+old_report_text.txt
+report.html
+figures/
+catboost_info/
+*.log
