@@ -69,7 +69,7 @@ class TmomAlpha(QCAlgorithm):
         
         # 6. 计算黄金因子特征库
         self.Log("Calculating 97 multi-scale factors...")
-        factors_df = calculate_factors(big_df)
+        factors_df = calculate_factors(big_df, orthogonalize=False)
         
         # 内存优化：转为 float32 降低 50% 内存使用
         self.factors_df = factors_df.astype(np.float32)
@@ -138,10 +138,13 @@ class TmomAlpha(QCAlgorithm):
         # 1. 训练 LightGBM
         self.model_lgb = lgb.LGBMRegressor(
             n_estimators=150,
-            learning_rate=0.03,
-            num_leaves=31,
-            subsample=0.8,
-            colsample_bytree=0.8,
+            learning_rate=0.0421,
+            num_leaves=210,
+            max_depth=8,
+            reg_alpha=205.7,
+            reg_lambda=581.0,
+            colsample_bytree=0.888,
+            subsample=0.879,
             random_state=42,
             device='gpu',
             n_jobs=12,
@@ -153,10 +156,13 @@ class TmomAlpha(QCAlgorithm):
             self.Log(f"LightGBM GPU training failed: {e}. Fallback to CPU.")
             self.model_lgb = lgb.LGBMRegressor(
                 n_estimators=150,
-                learning_rate=0.03,
-                num_leaves=31,
-                subsample=0.8,
-                colsample_bytree=0.8,
+                learning_rate=0.0421,
+                num_leaves=210,
+                max_depth=8,
+                reg_alpha=205.7,
+                reg_lambda=581.0,
+                colsample_bytree=0.888,
+                subsample=0.879,
                 random_state=42,
                 device='cpu',
                 n_jobs=12,
@@ -167,10 +173,12 @@ class TmomAlpha(QCAlgorithm):
         # 2. 训练 XGBoost
         self.model_xgb = xgb.XGBRegressor(
             n_estimators=150,
-            learning_rate=0.03,
-            max_depth=5,
-            subsample=0.8,
-            colsample_bytree=0.8,
+            learning_rate=0.0421,
+            max_depth=6,
+            reg_alpha=10.0,
+            reg_lambda=50.0,
+            colsample_bytree=0.888,
+            subsample=0.879,
             random_state=42,
             device='cuda',
             n_jobs=12
@@ -181,10 +189,12 @@ class TmomAlpha(QCAlgorithm):
             self.Log(f"XGBoost GPU training failed: {e}. Fallback to CPU.")
             self.model_xgb = xgb.XGBRegressor(
                 n_estimators=150,
-                learning_rate=0.03,
-                max_depth=5,
-                subsample=0.8,
-                colsample_bytree=0.8,
+                learning_rate=0.0421,
+                max_depth=6,
+                reg_alpha=10.0,
+                reg_lambda=50.0,
+                colsample_bytree=0.888,
+                subsample=0.879,
                 random_state=42,
                 device='cpu',
                 n_jobs=12
@@ -194,8 +204,9 @@ class TmomAlpha(QCAlgorithm):
         # 3. 训练 CatBoost
         self.model_cb = cb.CatBoostRegressor(
             iterations=150,
-            learning_rate=0.03,
-            depth=5,
+            learning_rate=0.0421,
+            depth=6,
+            l2_leaf_reg=30.0,
             subsample=0.8,
             bootstrap_type='Bernoulli',
             random_seed=42,
@@ -209,8 +220,9 @@ class TmomAlpha(QCAlgorithm):
             self.Log(f"CatBoost GPU training failed: {e}. Fallback to CPU.")
             self.model_cb = cb.CatBoostRegressor(
                 iterations=150,
-                learning_rate=0.03,
-                depth=5,
+                learning_rate=0.0421,
+                depth=6,
+                l2_leaf_reg=30.0,
                 subsample=0.8,
                 bootstrap_type='Bernoulli',
                 random_seed=42,
