@@ -9,6 +9,10 @@ env/
 venv/
 pip-log.txt
 pip-delete-this-directory.txt
+.env
+.env.*
+.env.local
+
 
 # Quant Data (Very Large)
 data/
@@ -16,6 +20,9 @@ data/
 *.csv
 *.json
 !TmomAlpha/config.json
+!reports/*.json
+!target_portfolio.json
+
 
 # IDE
 .idea/

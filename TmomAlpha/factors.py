@@ -319,6 +319,20 @@ def calculate_factors(df: pd.DataFrame, orthogonalize=True) -> pd.DataFrame:
     factor_dict['consensus_growth'] = consensus_growth_mat
     factor_dict['eps_revision'] = eps_revision_mat
 
+    # (25) 动态加载自定义因子 (Custom Factors)
+    try:
+        from TmomAlpha.custom_factors import CUSTOM_FACTORS_REGISTRY
+        for name, func in CUSTOM_FACTORS_REGISTRY.items():
+            try:
+                custom_val = func(open_matrix, high_matrix, low_matrix, close_matrix, volume_matrix)
+                custom_val = custom_val.reindex(index=close_matrix.index, columns=close_matrix.columns)
+                custom_val = custom_val.replace([np.inf, -np.inf], np.nan).ffill().bfill().fillna(0.0)
+                factor_dict[name] = custom_val
+            except Exception as e:
+                print(f"Error calculating custom factor '{name}': {e}")
+    except Exception as e:
+        print(f"Error importing CUSTOM_FACTORS_REGISTRY: {e}")
+
     # 3. 将所有计算好的因子矩阵堆叠 (Stack) 并融合成 MultiIndex DataFrame
 
     stacked_series = []

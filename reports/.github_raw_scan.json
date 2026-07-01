@@ -1,0 +1,368 @@
+{
+    "量化交易与投资组合 (Quant & Portfolio)": [
+        {
+            "name": "MstKail/polymarket-trading-bot-services-polyedge365",
+            "url": "https://github.com/MstKail/polymarket-trading-bot-services-polyedge365",
+            "description": "polymarket trading bot services, polymarket copy trading bot, polymarket arbitrage bot, polymarket hedge bot, polymarket maker bot, polymarket trading bot services, polymarket copy trading bot, polymarket arbitrage bot, polymarket hedge bot, polymarket maker bot, polymarket trading bot services, polymarket copy trading bot, polymarket arbitrage bot",
+            "stars": 218,
+            "forks": 710,
+            "language": "未知"
+        },
+        {
+            "name": "hbddevos/PumpFun-Trainer_V1",
+            "url": "https://github.com/hbddevos/PumpFun-Trainer_V1",
+            "description": "An advanced AI‑driven trading utility for Solana meme‑coins, featuring sniper, auto‑sell, MEV protection, multi‑wallet, alerts, and price monitoring.",
+            "stars": 121,
+            "forks": 0,
+            "language": "Python"
+        },
+        {
+            "name": "alkhudarigroupuae/PumpFun-Trainer_V1",
+            "url": "https://github.com/alkhudarigroupuae/PumpFun-Trainer_V1",
+            "description": "An advanced AI‑driven trading utility for Solana meme‑coins, featuring sniper, auto‑sell, MEV protection, multi‑wallet, alerts, and price monitoring.",
+            "stars": 121,
+            "forks": 0,
+            "language": "Python"
+        },
+        {
+            "name": "cporter202/stock-market-signal-automation",
+            "url": "https://github.com/cporter202/stock-market-signal-automation",
+            "description": "Build your own data-driven market edge with swing-trade signal webhooks, dashboards, alerts, AI agents, and automation examples.",
+            "stars": 104,
+            "forks": 30,
+            "language": "未知"
+        },
+        {
+            "name": "tradinglabpremium/solana-twitter-token-trading-agent",
+            "url": "https://github.com/tradinglabpremium/solana-twitter-token-trading-agent",
+            "description": "token trading agent on solana via twitter post engagement",
+            "stars": 93,
+            "forks": 808,
+            "language": "TypeScript"
+        },
+        {
+            "name": "lescasinos/solana-copy-trading-bot",
+            "url": "https://github.com/lescasinos/solana-copy-trading-bot",
+            "description": "solana copy trading bot to track leader wallet with Geyser and MEV-aware submission",
+            "stars": 93,
+            "forks": 809,
+            "language": "TypeScript"
+        },
+        {
+            "name": "signaltechorg/solana-trading-sniper-bot",
+            "url": "https://github.com/signaltechorg/solana-trading-sniper-bot",
+            "description": "solana sniper bot for raydium, meteora, pumpfun, pumpswap, bonkfun - solana sniper bot for raydium, meteora, pumpfun, pumpswap",
+            "stars": 93,
+            "forks": 486,
+            "language": "TypeScript"
+        },
+        {
+            "name": "alpacahq/alpaca-skills",
+            "url": "https://github.com/alpacahq/alpaca-skills",
+            "description": "Agent skills for Alpaca's Trading API and Broker API: drop-in SKILL.md files for AI coding assistants",
+            "stars": 74,
+            "forks": 1,
+            "language": "Python"
+        },
+        {
+            "name": "Nemo922/Binance-AutoTrader",
+            "url": "https://github.com/Nemo922/Binance-AutoTrader",
+            "description": "A structured project template for developing, backtesting, and documenting Binance trading strategies in a safe, local environment.",
+            "stars": 73,
+            "forks": 0,
+            "language": "C#"
+        },
+        {
+            "name": "birselnaure/Crypto-Checker",
+            "url": "https://github.com/birselnaure/Crypto-Checker",
+            "description": "Python-based crypto wallet analysis tool with multi-threaded address and seed phrase checking (up to 50 threads). Supports Bitcoin, Ethereum, Solana, BNB Chain, Polygon, and EVM networks. Includes proxy rotation, portfolio aggregation, USD valuation, token scanning, and TXT/CSV/JSON export for auditing, research, and analytics.",
+            "stars": 58,
+            "forks": 12,
+            "language": "Python"
+        },
+        {
+            "name": "stong123456/stone-backtest-lab",
+            "url": "https://github.com/stong123456/stone-backtest-lab",
+            "description": "Public crypto backtest lab",
+            "stars": 51,
+            "forks": 10,
+            "language": "Python"
+        },
+        {
+            "name": "vyt517069-jpg/Pet-Finder-RBX-Trade-Glitch",
+            "url": "https://github.com/vyt517069-jpg/Pet-Finder-RBX-Trade-Glitch",
+            "description": "2026 Ultimate Adopt Me Trade Glitch & Pet Finder Script Hub",
+            "stars": 51,
+            "forks": 0,
+            "language": "HTML"
+        },
+        {
+            "name": "abdokhalil5555/AgenticDeFi-Trainer",
+            "url": "https://github.com/abdokhalil5555/AgenticDeFi-Trainer",
+            "description": "Autonomous AI Agent Swarm framework with x402 self-executing wallets. Empowers LLM-driven agents to trade, bridge, and manage crypto treasuries without human intervention. The ultimate Agentic DeFi toolkit for 2026.",
+            "stars": 43,
+            "forks": 0,
+            "language": "Python"
+        },
+        {
+            "name": "IACKuchau/AgenticDeFi-Trainer",
+            "url": "https://github.com/IACKuchau/AgenticDeFi-Trainer",
+            "description": "Autonomous AI Agent Swarm framework with x402 self-executing wallets. Empowers LLM-driven agents to trade, bridge, and manage crypto treasuries without human intervention. The ultimate Agentic DeFi toolkit for 2026.",
+            "stars": 40,
+            "forks": 0,
+            "language": "Python"
+        },
+        {
+            "name": "beamivalice/PonyExl3",
+            "url": "https://github.com/beamivalice/PonyExl3",
+            "description": "Run Exl3 format LLM quant on Apple Silicon",
+            "stars": 37,
+            "forks": 0,
+            "language": "Python"
+        }
+    ],
+    "音视频与AI转录 (Audio/Video & Whisper)": [
+        {
+            "name": "majidmanzarpour/threejs-game-skills",
+            "url": "https://github.com/majidmanzarpour/threejs-game-skills",
+            "description": "Agent skills for building playable, polished Three.js browser games with gameplay, AAA-style graphics, UI, QA, and optional AI-generated 3D, image, and audio assets.",
+            "stars": 284,
+            "forks": 31,
+            "language": "Python"
+        },
+        {
+            "name": "MichalZaniewicz/esphome-guition-jc3636k718c-va",
+            "url": "https://github.com/MichalZaniewicz/esphome-guition-jc3636k718c-va",
+            "description": "Full Home Assistant voice assistant on the Guition JC3636K718C round knob display, in pure ESPHome: on-device wake word, music player, timers, addressable LED ring, device control and two built-in games.",
+            "stars": 120,
+            "forks": 4,
+            "language": "Python"
+        },
+        {
+            "name": "Quantumeaplunder/Serato-DJ-Pro-2026",
+            "url": "https://github.com/Quantumeaplunder/Serato-DJ-Pro-2026",
+            "description": "Serato DJ Pro workflow — library crates, BPM analysis and controller mapping on Windows.",
+            "stars": 110,
+            "forks": 0,
+            "language": "未知"
+        },
+        {
+            "name": "biolashonde/AI-Voice-Mod-Pro-Studio",
+            "url": "https://github.com/biolashonde/AI-Voice-Mod-Pro-Studio",
+            "description": "An open-source, local AI-powered voice changer and audio enhancement utility.",
+            "stars": 74,
+            "forks": 0,
+            "language": "C++"
+        },
+        {
+            "name": "sadeqebrahimi/SpotAd-2026",
+            "url": "https://github.com/sadeqebrahimi/SpotAd-2026",
+            "description": "SpotiNexus Framework — Advanced High-Fidelity Audio Streamer & Local Metadata Researcher. Experimental Lossless Playback Suite with Integrated Buffer Optimization and Session Persistence. Open-source high-performance multimedia engine for 2026.",
+            "stars": 73,
+            "forks": 0,
+            "language": "C++"
+        },
+        {
+            "name": "priyankmakwana88/Youtube-Hyperion-Client-2",
+            "url": "https://github.com/priyankmakwana88/Youtube-Hyperion-Client-2",
+            "description": "YouTube Hyperion (2026) — Ultimate Open-Source Desktop Client for YouTube. Features Native Ad-Blocking, 4K Video Downloader, Background Audio Playback, and SponsorBlock Integration. High-Performance Media Suite for Windows, Linux, and macOS.",
+            "stars": 73,
+            "forks": 0,
+            "language": "C++"
+        },
+        {
+            "name": "Faizan05-Git/soundpad-voice-studio-extender",
+            "url": "https://github.com/Faizan05-Git/soundpad-voice-studio-extender",
+            "description": "Ultimate Streamer Voice Lab 2026: AI TTS, Soundboard & Voice Modulator Pro Toolkit",
+            "stars": 50,
+            "forks": 0,
+            "language": "HTML"
+        },
+        {
+            "name": "sigmapigi042-svg/yt-to-audio-extractor",
+            "url": "https://github.com/sigmapigi042-svg/yt-to-audio-extractor",
+            "description": "YouTube to MP4 Converter 2026 – Fast WebM & MKV Download Tool",
+            "stars": 50,
+            "forks": 0,
+            "language": "HTML"
+        },
+        {
+            "name": "HornMaintenance/davinci-resolve-studio-full",
+            "url": "https://github.com/HornMaintenance/davinci-resolve-studio-full",
+            "description": "video-editing video-editor color-correction color-grading post-production windows-video-editor professional-video-editor fairlight-audio fusion-vfx vfx-software 8k-video-editing davinci-resolve-2026 cinematic-editing",
+            "stars": 45,
+            "forks": 0,
+            "language": "未知"
+        },
+        {
+            "name": "bonhs1983/Peace-Equalizer-Apo",
+            "url": "https://github.com/bonhs1983/Peace-Equalizer-Apo",
+            "description": "peace equalizer apo gui system wide parametric equalizer windows 11 windows 10 audio configuration tool sourceforge download bass boost preamp sound booster headphones calibration microphone setup gaming audio interface gui vst plugins open source desktop utility pc audio enhancement profile manager audio effects",
+            "stars": 41,
+            "forks": 0,
+            "language": "C#"
+        },
+        {
+            "name": "MangoX-ai/ai-video-downloader",
+            "url": "https://github.com/MangoX-ai/ai-video-downloader",
+            "description": "Use AI agents to automatically download videos from the internet and generate natural voice-overs in minutes — turning any content into ready-to-publish videos with minimal effort.",
+            "stars": 38,
+            "forks": 8,
+            "language": "Python"
+        },
+        {
+            "name": "timoncool/HiggsAudio-Studio",
+            "url": "https://github.com/timoncool/HiggsAudio-Studio",
+            "description": "Portable Windows TTS — Higgs Audio v3 + AI text director, podcast & audiobook multi-voice. One-click, 100% offline, RU/EN, NVIDIA GPU.",
+            "stars": 33,
+            "forks": 6,
+            "language": "Python"
+        },
+        {
+            "name": "saranambiar/hyperframes-video-agent-skills",
+            "url": "https://github.com/saranambiar/hyperframes-video-agent-skills",
+            "description": "Reusable skills, scripts, and production workflows for agent-led video creation with HyperFrames, FFmpeg, captions, audio sync, and render QA. Community project from real HyperFrames video work; not an official HyperFrames or HeyGen repository.",
+            "stars": 33,
+            "forks": 0,
+            "language": "Python"
+        },
+        {
+            "name": "AreevAI/flowcat",
+            "url": "https://github.com/AreevAI/flowcat",
+            "description": "Self-hosted native-Rust runtime for real-time voice agents. Own the stack: one binary in your own VPC or air-gapped, no hosted control plane. pipecat-compatible pipeline, in-process SIP/RTP, single-process call density. Apache-2.0.",
+            "stars": 31,
+            "forks": 0,
+            "language": "Rust"
+        },
+        {
+            "name": "catnip-ai-tech/MaineCoon",
+            "url": "https://github.com/catnip-ai-tech/MaineCoon",
+            "description": "MaineCoon: Pursuing a Real-Time Audio-Visual Social World Model — technical report & project links. 🌐 https://mainecoon.tech/",
+            "stars": 29,
+            "forks": 1,
+            "language": "未知"
+        }
+    ],
+    "智能体生态与工具 (AI Agents & MCP)": [
+        {
+            "name": "vercel/eve",
+            "url": "https://github.com/vercel/eve",
+            "description": "The Framework for Building Agents",
+            "stars": 1407,
+            "forks": 82,
+            "language": "TypeScript"
+        },
+        {
+            "name": "Plaer1/junction",
+            "url": "https://github.com/Plaer1/junction",
+            "description": "VS Code chat sidebar for local AI coding agents",
+            "stars": 510,
+            "forks": 6,
+            "language": "TypeScript"
+        },
+        {
+            "name": "mrtooher/fable-mode",
+            "url": "https://github.com/mrtooher/fable-mode",
+            "description": "A Claude skill that activates Fable-style agentic behavior: explicit multi-stage planning, sub-agent delegation, and self-verification.",
+            "stars": 500,
+            "forks": 56,
+            "language": "未知"
+        },
+        {
+            "name": "rebel0789/codexpro",
+            "url": "https://github.com/rebel0789/codexpro",
+            "description": "Use ChatGPT Developer Mode as a local coding agent for your repo through MCP.",
+            "stars": 401,
+            "forks": 35,
+            "language": "TypeScript"
+        },
+        {
+            "name": "dzcmemory-web/bazi-ziwei-skill",
+            "url": "https://github.com/dzcmemory-web/bazi-ziwei-skill",
+            "description": "AI 八字 + 紫微斗数排盘与综合印证 Skill：算法精准排盘（不靠 LLM 猜），三种分析模式，一键生成水墨风 HTML 命盘海报。兼容 Claude / Codex / Cursor / Workbuddy 等 SKILL.md Agent。",
+            "stars": 392,
+            "forks": 46,
+            "language": "TypeScript"
+        },
+        {
+            "name": "baskduf/FableCodex",
+            "url": "https://github.com/baskduf/FableCodex",
+            "description": "🗿 FableCodex is a Codex-style coding agent workflow that plans like Fable.",
+            "stars": 307,
+            "forks": 40,
+            "language": "Python"
+        },
+        {
+            "name": "dongshuyan/compass-skills",
+            "url": "https://github.com/dongshuyan/compass-skills",
+            "description": "司南：个性化 AI 任务总控 Skills 系统 /COMPASS: Personal Alignment Skills OS for AI Agents",
+            "stars": 296,
+            "forks": 26,
+            "language": "Python"
+        },
+        {
+            "name": "majidmanzarpour/threejs-game-skills",
+            "url": "https://github.com/majidmanzarpour/threejs-game-skills",
+            "description": "Agent skills for building playable, polished Three.js browser games with gameplay, AAA-style graphics, UI, QA, and optional AI-generated 3D, image, and audio assets.",
+            "stars": 284,
+            "forks": 31,
+            "language": "Python"
+        },
+        {
+            "name": "nnecrkvenuOX/formcms",
+            "url": "https://github.com/nnecrkvenuOX/formcms",
+            "description": "AI Agent: Open-source headless CMS built with ASP.NET Core (C#) and React, featuring REST APIs, GraphQL, and a GrapesJS page designer.",
+            "stars": 207,
+            "forks": 0,
+            "language": "C#"
+        },
+        {
+            "name": "aresyn/codex-control-plane-mcp",
+            "url": "https://github.com/aresyn/codex-control-plane-mcp",
+            "description": "Durable MCP control plane for long-running Codex Desktop tasks",
+            "stars": 201,
+            "forks": 2,
+            "language": "Python"
+        },
+        {
+            "name": "ruvnet/agent-harness-generator",
+            "url": "https://github.com/ruvnet/agent-harness-generator",
+            "description": "🛠️ The meta-harness for AI agents — scaffold your own focused, branded agent harness with its own npx CLI, MCP server, memory, learning loop, and witness-signed releases. Works with Claude Code, Codex, pi.dev, Hermes, OpenClaw, and RVM (hardware-isolated sandbox).",
+            "stars": 199,
+            "forks": 19,
+            "language": "TypeScript"
+        },
+        {
+            "name": "shreyashankar/plain-writing-skill",
+            "url": "https://github.com/shreyashankar/plain-writing-skill",
+            "description": "A plain-language writing skill for AI agents, with a revision view that shows what changed.",
+            "stars": 153,
+            "forks": 5,
+            "language": "HTML"
+        },
+        {
+            "name": "yolfinance/yolfi-agent",
+            "url": "https://github.com/yolfinance/yolfi-agent",
+            "description": "Yolfi Agent Kit SDK, CLI, and MCP server for AI coding agents.",
+            "stars": 139,
+            "forks": 0,
+            "language": "JavaScript"
+        },
+        {
+            "name": "renee-jia/scholar-loop",
+            "url": "https://github.com/renee-jia/scholar-loop",
+            "description": "An autonomous AI scientist: a multi-agent loop over literature, experiments, self-critique and write-up, with deterministic guards against reward-hacking and hallucination.",
+            "stars": 126,
+            "forks": 26,
+            "language": "Python"
+        },
+        {
+            "name": "sgup/ai",
+            "url": "https://github.com/sgup/ai",
+            "description": "Notes and operating profiles for working with AI coding agents.",
+            "stars": 117,
+            "forks": 11,
+            "language": "JavaScript"
+        }
+    ]
+}

@@ -28,9 +28,13 @@ def main():
             
             output_paths = [
                 os.path.abspath("PROJECT_REPORT_CSI1000.pdf"),
-                r"C:\Users\Junof\.gemini\antigravity\brain\3279b692-0c6a-4f2a-b8f4-5d762cad7d76\PROJECT_REPORT_CSI1000.pdf"
+                os.path.abspath(os.path.join("reports", "PROJECT_REPORT_CSI1000.pdf"))
             ]
-
+            
+            # Check if we have an environment variable for brain folder (to keep it compatible with AI systems)
+            brain_dir = os.environ.get("GEMINI_BRAIN_DIR")
+            if brain_dir:
+                output_paths.append(os.path.abspath(os.path.join(brain_dir, "PROJECT_REPORT_CSI1000.pdf")))
             
             success = False
             for path in output_paths:
@@ -46,15 +50,6 @@ def main():
                     )
                     print(f"PDF built successfully at: {path}")
                     success = True
-                    
-                    # Copy to brain folder under the standard name if we succeeded at a workspace path
-                    if "brain" not in path:
-                        try:
-                            import shutil
-                            shutil.copy(path, r"C:\Users\Junof\.gemini\antigravity\brain\3279b692-0c6a-4f2a-b8f4-5d762cad7d76\PROJECT_REPORT_CSI1000.pdf")
-                            print("Copied successfully to brain folder!")
-                        except Exception as e:
-                            print(f"Failed to copy to brain folder: {e}")
                 except Exception as e:
                     print(f"Failed at {path}: {e}")
             if not success:
